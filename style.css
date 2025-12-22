@@ -200,7 +200,9 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 .resume-section{
-  margin-left: 2vw;
+  display: flex;
+  gap: 1rem;
+  margin-top: 4vh;
 }
 
 
