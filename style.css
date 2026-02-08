@@ -368,6 +368,92 @@ body {
 .btn-resume:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
+}
+
+.resume-section {
+  display: flex;
+  gap: 1rem;
+  margin-top: 4vh;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+
+  .project-container {
+    max-width: 90vw;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 12vh 5vw;
+  }
+
+  .hero h1 {
+    font-size: 10vw;
+  }
+
+  .hero p {
+    font-size: 4vw;
+  }
+
+  .section h2 {
+    font-size: 6vw;
+  }
+
+  .navbar-container {
+    padding: 0 1rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+
+  .project-container {
+    max-width: 95vw;
+    padding: 2vh 3vw;
+  }
+
+  .feature-box {
+    flex: 1 1 100%;
+  }
+
+  .contact-box {
+    max-width: 100%;
+  }
+=======
+>>>>>>> 21de9ee (Change name in index.html)
 }
 
 .resume-section {
